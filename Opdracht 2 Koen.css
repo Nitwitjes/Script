@@ -1,0 +1,21 @@
+#Kop {
+    font-size: 20px;
+}
+
+th {
+    text-align: center;
+    border: 1px dotted grey;
+}
+
+#totalCost {
+    background-color: grey;
+    text-align: right;
+}
+
+table {
+    border: 3px solid black;
+    }
+
+td {
+    border: 1px dotted yellowgreen;
+}

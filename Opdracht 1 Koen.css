@@ -1,0 +1,99 @@
+/* Opdracht A: tekst in meerdere kleuren*/
+
+#p01 {
+    color: blue;
+}
+
+#p02 {
+    color: green;
+}
+
+#p03 {
+    color: yellow;
+}
+
+#p04 {
+    color: red;
+}
+
+#p05 {
+    color: pink;
+}
+
+/* Opdracht B: tabel 4x4 
+    
+rij 1: rood, groen, blauw, rood
+
+rij 2: groen, blauw, rood, groen
+
+rij 3: blauw, rood, groen, blauw
+
+rij 4: rood, groen, blauw, rood
+
+p11: rood
+p12: groen
+p13: blauw */
+
+table#t01 {
+    width: auto;
+    color: white;
+}
+
+#p11 {
+    background-color: red;
+}
+
+#p12 {
+    background-color: green;
+}
+
+#p13 {
+    background-color: blue;
+}
+
+/* Maak een tabel van 2×2
+maak een container div met 4 divs daar in
+Maak de tabel als volgt:
+rij1; rood, blauw
+
+rij 2: blauw, rood */
+
+.opdrachtc {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    color: white;
+}
+
+/* Opdracht D
+Maak met behulp van CSS Grid een nieuwe tabel van 2×2
+maak een container div met 3 divs daarin (Rood is 1 div, groen is 1 div en blauw is 1 div)
+Maak de tabel als volgt:
+rij1; rood, groen
+
+rij 2: rood, blauw */
+
+.opdrachtd{
+    display: inline-grid;
+    float: auto;
+    grid-template-columns: auto auto;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    grid-row: 1 / span 2;
+}
+
+.green {
+    background-color: green;
+    grid-column: 2 / span 1;
+}
+
+.blue {
+    background-color: blue;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+
